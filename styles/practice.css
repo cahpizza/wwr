@@ -1,9 +1,24 @@
-* {
-    border: 2px solid red;
+body {
+    font-size: 30px;
 }
 img {
-    display: block; 
+    border: 5px solid green;
+    width: 100%;
+    max-width: 1400px;
 }
 h1, p {
-    display: inline;
+    border: 5px solid blue;
+    text-align: center;
+}   
+#imagebox {
+    text-align: center;
+}
+p {
+    font-size: 3em;
+}
+.para-box {
+    font-size:20px;
+}
+div p:hover{
+    background-color: lightblue;
 }
