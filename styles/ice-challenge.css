@@ -64,6 +64,6 @@
     margin-right: 150px;
     margin-left: 80px;
   }
-  a:hover {
-    background-color: black;
+  h1 :hover {
+    color: black;
   }
