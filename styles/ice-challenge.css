@@ -54,10 +54,16 @@
     font-weight: bold;
   }
   img{
-    width: 200px;
+    width: 300px;
     display: block;
     margin: 0 auto ;
   }
-  
-  
-  
+  HTML {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  a:hover {
+    background-color: black;
+  }
