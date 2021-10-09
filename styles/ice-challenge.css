@@ -46,7 +46,7 @@
   }
   h5 {
     display: block;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -55,4 +55,9 @@
   }
   h1 :hover {
     color: black;
+  }
+  img{
+    width: 50%;
+    display: block;
+    margin: 0 auto ;
   }
