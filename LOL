@@ -1,0 +1,17 @@
+ <div>
+    <img src="images/w05_circles.jpeg" alt="image with circles" class="center">
+    </div>  
+    <div class="circles">
+        <img src="images/w05_ice_image_desk.jpeg" alt="desk image">
+        <img src="images/w05_ice_image_graphic.png" alt="graphic image">
+        <img src="images/w05_ice_image_person.jpeg" alt="person image">
+    </div>
+
+
+
+
+    <div class="circles">
+        <img src="images/w05_ice_image_desk.jpeg" alt="desk image">
+        <img src="images/w05_ice_image_graphic.png" alt="graphic image">
+        <img src="images/w05_ice_image_person.jpeg" alt="person image">
+    </div>

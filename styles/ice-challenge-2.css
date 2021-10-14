@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    width: ;
+}
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.circles img  {
+    border: 10px solid black;
+    border-radius: 75%;
+    width: 15%;
+    max-width: 1400px;
+    margin: 50px;
+}
+.circles {
+    text-align: center;
+   
+}
