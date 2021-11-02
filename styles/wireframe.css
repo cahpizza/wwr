@@ -113,9 +113,10 @@ h2{
 margin: 0;
 }
 #logo-link{
+    padding-top: 5px;
     justify-self: center;
     align-self: center;
-    padding-top: 5px;
+    
 }
 .icon{
     padding-top: 10px;
