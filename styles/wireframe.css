@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@900&display=swap');
 
-div{
+#content{
     max-width:1600px;
     margin: 0 auto;
     text-align: center;
@@ -48,13 +48,23 @@ nav a:hover{
     background-color: #A77464;
     color:#C0D6DF ;
 }
-.book, .join{
-    color:#A77464;
+.book{
+    color: white;
     text-decoration: none;
     font-family: 'EB Garamond', serif;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    background-color: #4F6D7A;
+}
+.join{
+    color: #DBE9EE;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 .book:hover, .join:hover{
     background-color:#A77464;
@@ -67,16 +77,17 @@ nav a:hover{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #4F6D7A
 }
-.footer{
-    background-color: #C0D6DF ;
+footer{
+    background-color: #4F6D7A ;
     padding: 25px 50px;
     margin-top: 200px;
-    display: grid;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    font-size: 16px;
 }
 .home-title{
-    color: #4F6D7A;
+    color: white;
     font-family: 'Playfair Display', serif;
     margin-top: 10px;
 }
@@ -94,7 +105,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color:#DBE9EE;
+    color:#A77464;
 }
 footer h3 a:hover{
     text-decoration: underline;
@@ -108,6 +119,8 @@ footer h3 a:hover{
     font-family: 'Playfair Display', serif;
     color: #4F6D7A;
     font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
 }
 h2{
 margin: 0;
@@ -131,6 +144,7 @@ footer .social img{
     margin: 200px 0;
 }
 .card-img{
+    display: grid;
     border: 10px solid #4F6D7A;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #4F6D7A
