@@ -332,6 +332,7 @@ form {
     #hero, .home-grid {
         display: block;
         height: auto;
+        
     }
     nav, footer {
         flex-direction: column;
